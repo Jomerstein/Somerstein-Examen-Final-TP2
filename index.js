@@ -1,5 +1,5 @@
 import express from 'express'
-import router from './routes/router.js'
+import router from './routes/sonda.router.js'
 
 const PORT = 8080
 const app = express()

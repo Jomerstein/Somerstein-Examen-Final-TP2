@@ -7,15 +7,17 @@
   "scripts": {
     "start": "node index.js",
     "watch": "node --watch index.js",
-    "test": "mocha src/test/test.test.js"
+    "test": "mocha ./test/sondas.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@faker-js/faker": "^8.4.1",
     "chai": "^5.1.1",
     "express": "^4.19.2",
     "faker": "^6.6.6",
+    "joi": "^17.13.3",
     "mocha": "^10.5.2",
     "supertest": "^7.0.0"
   }
