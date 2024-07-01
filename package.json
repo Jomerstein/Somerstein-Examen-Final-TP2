@@ -1,0 +1,22 @@
+{
+  "name": "examen-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "node --watch index.js",
+    "test": "mocha src/test/test.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "express": "^4.19.2",
+    "faker": "^6.6.6",
+    "mocha": "^10.5.2",
+    "supertest": "^7.0.0"
+  }
+}
